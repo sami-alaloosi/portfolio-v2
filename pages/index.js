@@ -1,21 +1,22 @@
-import Head from 'next/head'
+/** @format */
 
-//  components inport 
-import Hero from "../components/Hero"
+import Head from "next/head";
 
+//  components import
 
-
-
+import Hero from "../components/Hero";
+import About from "../components/About";
 
 export default function Home() {
   return (
-    <div >
+    <div>
       <Head>
         <title>Sami Al Aloosi| Software Enginear </title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-        <Hero />
-      
+
+      <Hero />
+      <About />
     </div>
-  )
+  );
 }

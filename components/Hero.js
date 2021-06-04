@@ -4,7 +4,7 @@ import { MailIcon } from "@heroicons/react/outline";
 
 import Nav from "./Nav"
 
-export default function Example() {
+export default function Hero() {
   return (
     <div className="relative bg-gray-50 overflow-hidden">
       <div className="hidden sm:block sm:absolute sm:inset-y-0 sm:h-full sm:w-full" aria-hidden="true">
@@ -55,7 +55,7 @@ export default function Example() {
       </div>
 
       <div className="relative pt-6 pb-16 sm:pb-24">
-        {/* nav */}
+        
         <Nav />
 
         <main className="mt-16 mx-auto max-w-7xl px-4 sm:mt-24">
@@ -82,8 +82,8 @@ export default function Example() {
               
                 <a
                   href="mailto:alaloosi.sami@gmail.com"
-                  
-                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10"
+
+                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white ƒ:bg-gray-50 md:py-4 md:text-lg md:px-10 hover:bg-gray-50"
                 >
                 <MailIcon
                         className="flex-shrink-0 w-6 h-6 text-teal-200"
