@@ -42,7 +42,7 @@ export default function Work() {
             <h2 className="text-3xl font-extrabold text-gray-700 sm:text-4xl lg:text-5xl">
               WHERE I'VE WORKED
             </h2>
-            <div className=" w-11/12 sm:w-8/12  md:w-4/12 m-auto mt-5 ">
+            <div className=" w-11/12 sm:w-8/12  md:w-5/12 m-auto mt-5 ">
               <WorkButtons open={open} setOpen={setOpen} jobs={jobs} />
             </div>
           </div>

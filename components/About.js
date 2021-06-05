@@ -1,7 +1,7 @@
 /** @format */
 
 import React from "react";
-import SkillsCard from "./SkillsCard";
+import SkillsCard from "./Skills/SkillsCard"
 import Divider from "./Divider";
 
 import { FaCode } from "react-icons/fa";
@@ -61,7 +61,7 @@ export default function About() {
                   <img
                     className="rounded-lg shadow-lg object-cover object-center"
                     src="/me.jpg"
-                    alt="Whitney leaning against a railing on a downtown street"
+                    alt="sami al aloosi"
                     width={1184}
                     height={1376}
                   />

@@ -2,7 +2,7 @@
 
 import React from "react";
 
-import Skill from "./Skill";
+import Skill from "./Skill"
 import { SiDotNet } from "react-icons/si";
 import { SiJavascript } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
