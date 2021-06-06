@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Project({name, description, link, img}) {
   return (
-    <div className="bg-gray-50 my-10 mx-auto  w-11/12  md:w-9/12 hover:scale-105 transform">
+    <div className="bg-gray-50 mt-10 mx-auto  w-11/12  md:w-9/12 hover:scale-105 transform">
       <div className="relative">
         <div className="absolute inset-0 flex flex-col" aria-hidden="true">
           <div className="flex-1 bg-gray-50" />

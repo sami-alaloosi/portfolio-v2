@@ -9,10 +9,13 @@ import About from "../components/About";
 import Work from "../components/Work/Work";
 import ProjectsCard from "../components/Projects/ProjectsCard"
 
+import Contact from "../components/Contact"
+import Footer from "../components/Footer"
+
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-gray-50">
       <Head>
         <title>Sami Al Aloosi| Software Enginear </title>
         <link rel="icon" href="/favicon.ico" />
@@ -23,6 +26,10 @@ export default function Home() {
       <Work />
 
       <ProjectsCard />
+
+      <Contact />
+
+      <Footer />
       
     </div>
   );
