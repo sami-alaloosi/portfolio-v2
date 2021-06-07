@@ -9,12 +9,12 @@ export default function Contact() {
     <div className="bg-gray-50" id="contact">
     <div className="relative py-16  w-11/12 mx-auto">
       <div className="hidden absolute top-0 inset-x-0 h-1/2 bg-gray-50 lg:block" aria-hidden="true" />
-      <div className="max-w-7xl mx-auto bg-indigo-600 lg:bg-transparent lg:px-8">
+      <div className="max-w-7xl mx-auto bg-transparent  lg:px-8 ">
         <div className="lg:grid lg:grid-cols-12">
           <div className="relative z-10 lg:col-start-1 lg:row-start-1 lg:col-span-4 lg:py-16 lg:bg-transparent">
             <div className="absolute inset-x-0 h-1/2 bg-gray-50 lg:hidden" aria-hidden="true" />
             <div className="max-w-md mx-auto px-4 sm:max-w-3xl sm:px-6 lg:max-w-none lg:p-0">
-              <div className="aspect-w-10 aspect-h-6 sm:aspect-w-2 sm:aspect-h-1 lg:aspect-w-1">
+              <div className="aspect-w-10 aspect-h-6 sm:aspect-w-2 sm:aspect-h-1 lg:aspect-w-1  -mb-6 lg:mb-0">
                 <img
                   className="object-cover object-center rounded-3xl shadow-2xl"
                   src="/me.jpg"
@@ -24,7 +24,7 @@ export default function Contact() {
             </div>
           </div>
 
-          <div className="relative bg-indigo-600 lg:col-start-3 lg:row-start-1 lg:col-span-10 lg:rounded-3xl lg:grid lg:grid-cols-10 lg:items-center">
+          <div className="relative bg-gradient-to-r from-purple-600 to-indigo-600 lg:col-start-3 lg:row-start-1 lg:col-span-10 rounded-3xl lg:grid lg:grid-cols-10 lg:items-center">
             <div className="hidden absolute inset-0 overflow-hidden rounded-3xl lg:block" aria-hidden="true">
               <svg
                 className="absolute bottom-full left-full transform translate-y-1/3 -translate-x-2/3 xl:bottom-auto xl:top-0 xl:translate-y-0"
@@ -76,7 +76,7 @@ export default function Contact() {
               Get In Touch
               </h2>
               <p className="text-lg text-white">
-              I'm currently looking for new opportunities, my inbox is always open. Whether you have a question, wants to collaborate on a project, or just want to say hi!
+              I'm currently looking for new opportunities, my inbox is always open. Whether you have a question, wants to collaborate on a project, or just want to say hello !
               </p>
               <a
                 className="block w-full py-3 px-5 text-center bg-white border border-transparent rounded-md shadow-md text-base font-medium text-indigo-700 hover:bg-gray-100 sm:inline-block sm:w-auto"
