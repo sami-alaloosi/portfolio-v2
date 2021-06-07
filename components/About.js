@@ -72,39 +72,15 @@ export default function About() {
           <div className="mt-8 lg:mt-0">
             <div className="text-base max-w-prose mx-auto lg:max-w-none">
               <p className="text-lg text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi repudiandae
-                consequuntur voluptatum laborum numquam blanditiis harum
-                quisquam eius sed odit fugiat iusto fuga praesentium optio,
-                eaque rerum! Provident similique accusantium nemo autem.
-                Veritatis obcaecati tenetur iure eius earum ut molestias
-                architecto voluptate aliquam nihil, eveniet aliquid culpa
-                officia aut! Impedit sit sunt quaerat, odit, tenetur error,
-                harum nesciunt ipsum debitis quas aliquid.
+              I'm a self-taught full-stack web developer, my interest in web development started in 2016. I have always believed in <span className="font-semibold"> 'Do It Yourself' </span> culture.
               </p>
             </div>
             <div className="mt-5 prose prose-indigo text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi repudiandae
-                consequuntur voluptatum laborum numquam blanditiis harum
-                quisquam eius sed odit fugiat iusto fuga praesentium optio,
-                eaque rerum! Provident similique accusantium nemo autem.
-                Veritatis obcaecati tenetur iure eius earum ut molestias
-                architecto voluptate aliquam nihil, eveniet aliquid culpa
-                officia aut! Impedit sit sunt quaerat, odit, tenetur error,
-                harum nesciunt ipsum debitis quas aliquid.
+              At the beginning of my web development journey I had a lot of ideas, but no direction. During that time, I started teaching myself programming by watching YouTube coding tutorial, Freecodecamp, and Udemy courses.
               </p>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi repudiandae
-                consequuntur voluptatum laborum numquam blanditiis harum
-                quisquam eius sed odit fugiat iusto fuga praesentium optio,
-                eaque rerum! Provident similique accusantium nemo autem.
-                Veritatis obcaecati tenetur iure eius earum ut molestias
-                architecto voluptate aliquam nihil, eveniet aliquid culpa
-                officia aut! Impedit sit sunt quaerat, odit, tenetur error,
-                harum nesciunt ipsum debitis quas aliquid.
+              Fast forward to 2020, I joined Lambda school to solidify my coding skills and have a hands-on experience in working on professional projects with a big team of developer.
               </p>
 
               <p className="text-center font-medium">
