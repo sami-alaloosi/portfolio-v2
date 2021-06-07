@@ -1,6 +1,6 @@
 /** @format */
 
-import React, { Fragment } from "react";
+import React, { Fragment} from "react";
 
 import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
@@ -11,12 +11,17 @@ const navigation = [
   { name: "Contact", href: "#contact" },
 ];
 
-export default function Nav() {
+export default function Nav({ isOpen, setIsOpen }) {
   return (
     <Popover>
-      {({ open }) => (
+      {() => (
         <>
-          <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <div
+            className="max-w-7xl mx-auto px-4 sm:px-6"
+            onClick={() => {
+              setIsOpen(true);
+            }}
+          >
             <nav
               className="relative flex items-center justify-between sm:h-10 md:justify-center"
               aria-label="Global"
@@ -67,7 +72,7 @@ export default function Nav() {
           </div>
 
           <Transition
-            show={open}
+            show={isOpen}
             as={Fragment}
             enter="duration-150 ease-out"
             enterFrom="opacity-0 scale-95"
@@ -77,13 +82,16 @@ export default function Nav() {
             leaveTo="opacity-0 scale-95"
           >
             <Popover.Panel
+              onClick={() => {
+                setIsOpen(false);
+              }}
               focus
               static
               className="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
             >
               <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
                 <div className="px-5 pt-4 flex items-center justify-between">
-                <a href="https://github.com/sami-alaloosi" target="_blank">
+                  <a href="https://github.com/sami-alaloosi" target="_blank">
                     <span className="sr-only">Logo</span>
                     <img
                       src="/images/Logo.svg"

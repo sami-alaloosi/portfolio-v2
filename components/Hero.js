@@ -1,6 +1,6 @@
 /** @format */
 
-import React from "react";
+import React, { useState } from "react";
 import ReactTypingEffect from "react-typing-effect";
 
 import { MailIcon } from "@heroicons/react/outline";
@@ -8,6 +8,7 @@ import { MailIcon } from "@heroicons/react/outline";
 import Nav from "./Nav";
 
 export default function Hero() {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="relative bg-gray-50 overflow-hidden">
       <div
@@ -83,7 +84,7 @@ export default function Hero() {
       </div>
 
       <div className="relative pt-6 pb-16 sm:pb-24">
-        <Nav />
+        <Nav isOpen={isOpen} setIsOpen={setIsOpen} />
 
         <main className="mt-16 mx-auto max-w-7xl px-4 sm:mt-24">
           <div className="text-center">
@@ -92,7 +93,8 @@ export default function Hero() {
               <span className="block xl:inline">I love all aspects of</span>
               <span className="block text-indigo-600 xl:inline">
                 &nbsp;
-                <ReactTypingEffect text={[" web development!"]} />
+                {isOpen?  " web development!" : <ReactTypingEffect text={[" web development!"]} /> }
+                
               </span>
             </h1>
 
