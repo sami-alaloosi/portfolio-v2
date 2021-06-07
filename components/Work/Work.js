@@ -35,7 +35,7 @@ const jobs = [
 export default function Work() {
   const [open, setOpen] = useState(0);
   return (
-    <div className="bg-gray-100">
+    <div className="bg-gray-100" id="experience">
       <div className=" relative pt-12 sm:pt-16 lg:pt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">

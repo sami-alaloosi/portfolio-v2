@@ -2,16 +2,14 @@
 
 import React, { Fragment } from "react";
 
-import { Popover, Transition } from '@headlessui/react'
-import { MenuIcon, XIcon } from '@heroicons/react/outline'
+import { Popover, Transition } from "@headlessui/react";
+import { MenuIcon, XIcon } from "@heroicons/react/outline";
 const navigation = [
-    { name: 'About', href: '#' },
-    { name: 'Experience', href: '#' },
-    { name: 'Projects', href: '#' },
-    { name: 'Contact', href: '#' },
-  ]
-
-
+  { name: "About", href: "#about" },
+  { name: "Experience", href: "#experience" },
+  { name: "Projects", href: "#projects" },
+  { name: "Contact", href: "#contact" },
+];
 
 export default function Nav() {
   return (
@@ -25,9 +23,14 @@ export default function Nav() {
             >
               <div className="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
                 <div className="flex items-center justify-between w-full md:w-auto">
-                  <a href="#">
+                  <a href="https://github.com/sami-alaloosi" target="_blank">
                     <span className="sr-only">Logo</span>
-                    <div> Aloosi</div>
+                    <img
+                      src="/images/Logo.svg"
+                      alt="logo"
+                      width={60}
+                      height={60}
+                    />
                   </a>
 
                   <div className="-mr-2 flex items-center md:hidden">
@@ -80,9 +83,15 @@ export default function Nav() {
             >
               <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
                 <div className="px-5 pt-4 flex items-center justify-between">
-                  <div>
-                    Aloosi logo
-                  </div>
+                <a href="https://github.com/sami-alaloosi" target="_blank">
+                    <span className="sr-only">Logo</span>
+                    <img
+                      src="/images/Logo.svg"
+                      alt="logo"
+                      width={60}
+                      height={60}
+                    />
+                  </a>
 
                   <div className="-mr-2">
                     <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
@@ -104,7 +113,7 @@ export default function Nav() {
                 </div>
                 <a
                   href="/Resume.pdf"
-                    target="_blank"
+                  target="_blank"
                   className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100"
                 >
                   Resume

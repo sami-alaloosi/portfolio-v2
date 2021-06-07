@@ -15,7 +15,7 @@ const projects = [
 
 export default function ProjectsCard() {
   return (
-    <div className="bg-gray-50 my-7">
+    <div className="bg-gray-50 my-7" id="projects">
       
       <div> 
       <h2 className="  flex  justify-center text-3xl font-extrabold text-gray-700 text-center sm:text-4xl lg:text-5xl  py-16">

@@ -18,7 +18,7 @@ export default function Home() {
     <div className="bg-gray-50">
       <Head>
         <title>Sami Al Aloosi| Software Enginear </title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/images/Logo.svg" />
       </Head>
 
       <Hero />

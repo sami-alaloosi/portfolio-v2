@@ -6,7 +6,7 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <div className="bg-gray-50">
+    <div className="bg-gray-50" id="contact">
     <div className="relative py-16  w-11/12 mx-auto">
       <div className="hidden absolute top-0 inset-x-0 h-1/2 bg-gray-50 lg:block" aria-hidden="true" />
       <div className="max-w-7xl mx-auto bg-indigo-600 lg:bg-transparent lg:px-8">

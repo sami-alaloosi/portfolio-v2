@@ -8,7 +8,7 @@ import { FaCode } from "react-icons/fa";
 
 export default function About() {
   return (
-    <div className="bg-gray-50 overflow-hidden ">
+    <div className="bg-gray-50 overflow-hidden " id="about">
       <div className="relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
         <div className="hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen" />
 
