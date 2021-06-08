@@ -22,3 +22,28 @@ As a full stack web developer, it was always hard for me to come up with good lo
 make sure to check <a href="https://tailwindui.com/license" target="_blank">tailwindui</a>  and acquire the correct license to use their components.
 
 
+## 🛠 Installation & Set Up
+
+1. **Fork** this repository
+
+
+2.  Install dependencies
+
+   ```sh
+   npm install
+   ```
+
+
+3. Start the development server
+
+  ```sh
+   npm run dev
+   ```
+   
+  ## 🚀 Building and Running for Production
+
+1. Generate the production build
+
+   ```sh
+   npm run build
+   ```
