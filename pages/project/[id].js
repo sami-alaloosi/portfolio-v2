@@ -11,12 +11,16 @@ import { GiEarthAmerica } from "react-icons/gi";
 
 import { SiNextDotJs } from "react-icons/si";
 import { SiCss3 } from "react-icons/si";
+import { SiBulma } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { FaPaypal } from "react-icons/fa";
 import { FaMailBulk } from "react-icons/fa";
 import { FcAcceptDatabase } from "react-icons/fc";
 import { SiPostgresql } from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa";
+import { SiMongodb } from "react-icons/si";
+import { SiJsonwebtokens } from "react-icons/si";
 
 const icons  = {
     "SiNextDotJs" : <SiNextDotJs />,
@@ -26,7 +30,11 @@ const icons  = {
     "FaPaypal" : <FaPaypal />,
     "FaMailBulk" : <FaMailBulk />,
     "FcAcceptDatabase" : <FcAcceptDatabase />,
-    "SiPostgresql" : <SiPostgresql />
+    "SiPostgresql" : <SiPostgresql />,
+    "SiBulma" : <SiBulma />,
+    "FaNodeJs" : <FaNodeJs />,
+    "SiMongodb" : <SiMongodb />,
+    "SiJsonwebtokens" : <SiJsonwebtokens />
 }
 
 import { projectsData } from "../../components/Projects/projectsData";
@@ -46,7 +54,6 @@ export async function getStaticProps({ params }) {
 }
 
 export default function ProjectView({ project }) {
-  console.log("we project", project);
 
   return (
     <div className="bg-gray-50 overflow-hidden ">

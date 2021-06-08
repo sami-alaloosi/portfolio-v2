@@ -45,13 +45,23 @@ export const projectsData = [
     ]
   },
 
-  // {
-  //   id: 3,
-  //   name: "Chrome Extension",
-  //   description:
-  //     "Quick Media Accounts Launcher, this extension will allow the user to access all of your media accounts with a click of a button.",
-  //   link: "https://github.com/sami-alaloosi/Quick-Media-Accounts-Launcher",
-  //   img: "/images/launcher.jpg",
-  //   images: ["/images/portfolio-v2-1.png", "/images/portfolio-v2-2.png"]
-  // },
+  {
+    id: 3,
+    name: "Remotify",
+    description1: "Remotify, is a project I have created to show case my full-stack development skills. Remotify, is a job bored application that grant developers the ability to add their skills, education, certifications, work experience and  apply for jobs. Recruiters can also utilize Remotify and post new job positions that can be viewed by the developers.",
+    description2:  "I designed and built this project using React, NodeJS, MongoDB, JSON Web Token, and Bulma.",
+    year: 2021,
+    type: "Learning project",
+    webLink: "https://remotify-jobs.netlify.app/",
+    githubLink: "https://github.com/sami-alaloosi/job-board-frontend",
+    images: ["/images/Remotify/Remotify-1.png", "/images/Remotify/Remotify-2.png","/images/Remotify/Remotify-3.png","/images/Remotify/Remotify-4.png"],
+    technologies: [
+      { name: "React.JS", icon: "FaReact",  color: 3 },
+      { name: "Node.JS", icon: "FaNodeJs",  color: 5 },
+      { name: "MongoDB", icon: "SiMongodb",  color: 5 },
+      { name: "JWT", icon: "SiJsonwebtokens",  color: 4 },
+      { name: "Bulma", icon: "SiBulma",  color: 5 },
+      { name: "CSS", icon: "SiCss3",  color: 6 },
+    ]
+  },
 ];

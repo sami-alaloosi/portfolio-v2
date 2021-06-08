@@ -23,7 +23,7 @@ export default function Project({name, description, img, Idx}) {
                     {name}
                   </span>
                 </h2>
-                <p className="mt-4 text-xs leading-6 text-orange-50">
+                <p className="mt-4 text-sm leading-6 text-orange-50">
                   {description}
                 </p>
                 <Link
