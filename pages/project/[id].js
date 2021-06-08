@@ -171,8 +171,8 @@ export default function ProjectView({ project }) {
           </div>
         </div>
       </div>
-
-      <div className=" grid  grid-cols-1 justify-center  w-11/12 mx-auto ">
+      <div style={{border: "2px red solid"}} className="flex justify-center">
+      <div className=" grid  grid-cols-1 justify-center  w-11/12 mx-auto " style={{border: "2px red solid"}}>
         {project.images.map((item, Idx) => (
           <img
             key={Idx}
@@ -183,6 +183,7 @@ export default function ProjectView({ project }) {
             className="mt-5 hover:scale-105 transform shadow-2xl rounded-md"
           />
         ))}
+      </div>
       </div>
 
       <Footer />
