@@ -7,10 +7,11 @@ import Head from "next/head";
 import Hero from "../components/Hero";
 import About from "../components/About";
 import Work from "../components/Work/Work";
-import ProjectsCard from "../components/Projects/ProjectsCard"
+import ProjectsCard from "../components/Projects/ProjectsCard";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
-import Contact from "../components/Contact"
-import Footer from "../components/Footer"
+
 
 
 export default function Home() {
@@ -30,7 +31,7 @@ export default function Home() {
       <Contact />
 
       <Footer />
-      
+     
     </div>
   );
 }

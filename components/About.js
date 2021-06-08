@@ -4,6 +4,7 @@ import React from "react";
 import SkillsCard from "./Skills/SkillsCard"
 import Divider from "./Divider";
 
+
 import { FaCode } from "react-icons/fa";
 
 export default function About() {

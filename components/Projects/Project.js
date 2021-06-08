@@ -1,8 +1,12 @@
 /** @format */
 
 import React from "react";
+import Link from "next/link"
 
-export default function Project({name, description, link, img}) {
+
+
+
+export default function Project({name, description, img, Idx}) {
   return (
     <div className="bg-gray-50 mt-10 mx-auto  w-11/12  md:w-9/12 hover:scale-105 transform">
       <div className="relative">
@@ -22,19 +26,18 @@ export default function Project({name, description, link, img}) {
                 <p className="mt-4 text-xs leading-6 text-orange-50">
                   {description}
                 </p>
-                <a
-                  href={link}
-                  target="_blank"
-                  className="mt-8 bg-orange-100 border border-transparent rounded-md shadow py-3 px-6 inline-flex items-center text-base font-medium text-red-600 hover:text-red-500"
+                <Link
+                  href={`/project/${Idx}`}   
                 >
-                  Visit website 
-                </a>
+                <button className="mt-8 bg-orange-100 border border-transparent rounded-md shadow py-3 px-6 inline-flex items-center text-base font-medium text-red-600 hover:text-red-500"> Learn more</button>
+                  
+                </Link>
               </div>
             </div>
             <div className="-mt-6 aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1">
               <img
                 className="transform translate-x-6 translate-y-6 rounded-md object-cover object-left-top sm:translate-x-16 lg:translate-y-20"
-                // src="https://tailwindui.com/img/component-images/full-width-with-sidebar.jpg"
+               
                 src={img}
                 alt="App screenshot"
               />
