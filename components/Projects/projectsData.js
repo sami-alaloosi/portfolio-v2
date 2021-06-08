@@ -45,13 +45,13 @@ export const projectsData = [
     ]
   },
 
-  {
-    id: 3,
-    name: "Chrome Extension",
-    description:
-      "Quick Media Accounts Launcher, this extension will allow the user to access all of your media accounts with a click of a button.",
-    link: "https://github.com/sami-alaloosi/Quick-Media-Accounts-Launcher",
-    img: "/images/launcher.jpg",
-    images: ["/images/portfolio-v2-1.png", "/images/portfolio-v2-2.png"]
-  },
+  // {
+  //   id: 3,
+  //   name: "Chrome Extension",
+  //   description:
+  //     "Quick Media Accounts Launcher, this extension will allow the user to access all of your media accounts with a click of a button.",
+  //   link: "https://github.com/sami-alaloosi/Quick-Media-Accounts-Launcher",
+  //   img: "/images/launcher.jpg",
+  //   images: ["/images/portfolio-v2-1.png", "/images/portfolio-v2-2.png"]
+  // },
 ];
