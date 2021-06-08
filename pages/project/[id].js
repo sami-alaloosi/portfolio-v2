@@ -171,8 +171,8 @@ export default function ProjectView({ project }) {
           </div>
         </div>
       </div>
-      <div style={{border: "2px red solid"}} className="flex justify-center">
-      <div className=" grid  grid-cols-1 justify-center  w-11/12 mx-auto " style={{border: "2px red solid"}}>
+      <div  className="flex justify-center">
+      <div className=" grid  grid-cols-1 justify-center  w-11/12 mx-auto " >
         {project.images.map((item, Idx) => (
           <img
             key={Idx}

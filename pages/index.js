@@ -1,6 +1,6 @@
 /** @format */
 
-import Head from "next/head";
+
 
 //  components import
 
@@ -17,10 +17,7 @@ import Footer from "../components/Footer";
 export default function Home() {
   return (
     <div className="bg-gray-50 m-0">
-      <Head>
-        <title>Sami Al Aloosi| Software Enginear </title>
-        <link rel="icon" href="/images/Logo.svg" />
-      </Head>
+      
 
       <Hero />
       <About />
