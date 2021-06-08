@@ -1,24 +1,49 @@
-# Next.js + Tailwind CSS Example
+<div align="center">
+  <img alt="Logo" src="https://raw.githubusercontent.com/sami-alaloosi/portfolio-v2/main/public/images/logo.svg" width="100" />
+</div>
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) (v2.1) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+<h1 align="center">
+  aloosi.dev
+</h1>
 
-It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
+<p align="center">
+  Welcome to my personal portfolio <a href="https://aloosi.dev" target="_blank">aloosi.dev</a> built with <a href="https://nextjs.org/" target="_blank">Nextjs</a> , styled using <a href="https://tailwindcss.com/" target="_blank">tailwindcss</a> and <a href="https://tailwindui.com/" target="_blank">tailwindui</a> , and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
+</p>
 
-## Deploy your own
+![demo](https://raw.githubusercontent.com/sami-alaloosi/portfolio-v2/main/public/images/demo.png)
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
 
-## How to use
+## :bangbang:  Before forking this repo (please read!) :bangbang:
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+As a full stack web developer, it was always hard for me to come up with good looking designs to show case my programming skills. I made this open source project for us. My goal is to provide backend and front end devolopers with a tool to showcase their information and work in a modern mobile first responsive design. **All I ask of you all is to use it with attribution.**
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
-# portfolio-v2
+make sure to check <a href="https://tailwindui.com/license" target="_blank">tailwindui</a>  and acquire the correct license to use their components.
+
+
+## 🛠 Installation & Set Up
+
+1. **Fork** this repository
+
+
+2.  Install dependencies
+
+   ```sh
+   npm install
+   ```
+
+
+3. Start the development server
+
+  ```sh
+   npm run dev
+   ```
+   
+  ## 🚀 Building and Running for Production
+
+1. Generate the production build
+
+   ```sh
+   npm run build
+   ```
