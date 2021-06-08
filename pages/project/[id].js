@@ -180,7 +180,7 @@ export default function ProjectView({ project }) {
             alt="project"
             width={650}
             
-            className="mt-5 hover:scale-105 transform shadow-2xl rounded-md"
+            className="mt-5 hover:scale-105 transform shadow-2xl rounded-md mx-auto"
           />
         ))}
       </div>
