@@ -60,7 +60,7 @@ export default function Nav({ isOpen, setIsOpen }) {
               <div className="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">
                 <span className="inline-flex rounded-md shadow">
                   <a
-                    href="/Resume.pdf"
+                    href="https://gist.github.com/sami-alaloosi/e0d4625fc91f2aeec7130d49553919bd"
                     target="_blank"
                     className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50"
                   >
@@ -120,7 +120,7 @@ export default function Nav({ isOpen, setIsOpen }) {
                   ))}
                 </div>
                 <a
-                  href="/Resume.pdf"
+                  href="https://gist.github.com/sami-alaloosi/e0d4625fc91f2aeec7130d49553919bd"
                   target="_blank"
                   className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100"
                 >
