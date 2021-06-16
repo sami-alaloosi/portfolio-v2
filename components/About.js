@@ -73,7 +73,7 @@ export default function About() {
           <div className="mt-8 lg:mt-0">
             <div className="text-base max-w-prose mx-auto lg:max-w-none">
               <p className="text-lg text-gray-500">
-              I'm a self-taught full-stack web developer, my interest in web development started in 2016. I have always believed in <span className="font-semibold"> 'Do It Yourself' </span> culture.
+              I'm a self-taught full-stack web developer, my interest in web development started in 2016. Ever since I was young I was fascinated with exploring new topics.
               </p>
             </div>
             <div className="mt-5 prose prose-indigo text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
