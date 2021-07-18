@@ -12,7 +12,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <title>Sami Al Aloosi| Software Enginear </title>
+          <title>Sami Al Aloosi | Software Engineer </title>
           <link rel="icon" href="/images/Logo.svg" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
           <meta name="author" content="Sami Al Aloosi"></meta>
